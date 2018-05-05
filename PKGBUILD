@@ -1,7 +1,7 @@
 # Maintainer: David Nerjes <david.hamburg@googlemail.com>
 pkgname=entt
 pkgver=2.5.0
-pkgrel=1
+pkgrel=2
 epoch=
 pkgdesc="Gaming meets modern C++ - a fast and reliable entity-component system and much more"
 arch=('any')
@@ -26,7 +26,7 @@ md5sums=()
 validpgpkeys=()
 
 package() {
-	install -D -m644 "../FindEntt.cmake" "${pkgdir}/usr/share/cmake-3.10/Modules/FindEntt.cmake"
+	install -D -m644 "../FindEntt.cmake" "${pkgdir}/usr/share/cmake-3.11/Modules/FindEntt.cmake"
 	cd "$pkgname-$pkgver"
 	install -D -m644 "LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE"
     mkdir -p "${pkgdir}/usr/lib/include/${pkgname}" 
