@@ -1,7 +1,7 @@
 # Maintainer: David Nerjes <david.hamburg@googlemail.com>
 pkgname=entt
-pkgver=2.5.0
-pkgrel=2
+pkgver=2.7.1
+pkgrel=1
 epoch=
 pkgdesc="Gaming meets modern C++ - a fast and reliable entity-component system and much more"
 arch=('any')
@@ -20,7 +20,7 @@ options=()
 install=
 changelog=
 source=("https://github.com/skypjack/$pkgname/archive/v$pkgver.tar.gz")
-sha256sums=('6246501c6589eba9832538c47a23a239eaa1066c77471cae7d79e741141ade82')
+sha256sums=('50a0387889aa3a28ba24424a2be71d60884aa46534cc0742883c8e7729ed68bc')
 noextract=()
 md5sums=()
 validpgpkeys=()
